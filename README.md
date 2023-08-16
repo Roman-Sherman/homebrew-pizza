@@ -1,11 +1,14 @@
-# Open-sauced Pizza
+# Open-sauced brew taps
 
-## How do I install these formulae?
+This repository contains the release Homebrew taps and formula
+for OpenSauced CLI installable software.
 
-`brew install open-sauced/pizza/<formula>`
+### How do I install these formulae?
 
-Or `brew tap open-sauced/pizza` and then `brew install <formula>`.
+`brew install open-sauced/tap/<brew-formula>`
 
-## Documentation
+For example, to install the OpenSauced CLI, run:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew install open-sauced/tap/pizza
+```
